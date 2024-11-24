@@ -1,0 +1,87 @@
+{
+	"app":	{
+		"graphicsShaderFileName":	".\\planefiller.gfx.glsl",
+		"soundShaderFileName":	".\\planefiller.snd.glsl",
+		"xReso":	1280,
+		"yReso":	720
+	},
+	"camera":	{
+		"vec3Pos":	[0, 0, 0],
+		"vec3Ang":	[0, 0, 0],
+		"fovYInRadians":	0.39269909262657166
+	},
+	"captureScreenShotSettings":	{
+		"fileName":	".\\planefiller.png",
+		"xReso":	1280,
+		"yReso":	720,
+		"replaceAlphaByOne":	true
+	},
+	"captureCubemapSettings":	{
+		"fileName":	"",
+		"reso":	512
+	},
+	"renderSettings":	{
+		"pixelFormat":	1,
+		"enableMultipleRenderTargets":	true,
+		"numEnabledRenderTargets":	2,
+		"enableBackBuffer":	true,
+		"enableMipmapGeneration":	false,
+		"textureFilter":	1,
+		"textureWrap":	0,
+		"enableSwapIntervalControl":	true,
+		"swapInterval":	2
+	},
+	"preferenceSettings":	{
+		"enableAutoRestartByGraphicsShader":	false,
+		"enableAutoRestartBySoundShader":	false
+	},
+	"executableExportSettings":	{
+		"fileName":	".\\planefiller-720p.exe",
+		"xReso":	1280,
+		"yReso":	720,
+		"durationInSeconds":	166,
+		"numSoundBufferSamples":	7995392,
+		"numSoundBufferAvailableSamples":	7995392,
+		"numSoundBufferSamplesPerDispatch":	32768,
+		"enableFrameCountUniform":	false,
+		"enableSoundDispatchWait":	true,
+		"shaderMinifierOptions":	{
+			"noRenaming":	false,
+			"enableNoRenamingList":	true,
+			"noRenamingList":	"main,i",
+			"noSequence":	false,
+			"smoothstep":	false
+		},
+		"crinklerOptions":	{
+			"compMode":	2,
+			"useTinyHeader":	false,
+			"useTinyImport":	false
+		}
+	},
+	"recordImageSequenceSettings":	{
+		"directoryName":	".\\capture",
+		"xReso":	1920,
+		"yReso":	1080,
+		"startTimeInSeconds":	0,
+		"durationInSeconds":	166,
+		"framesPerSecond":	60,
+		"replaceAlphaByOne":	true
+	},
+	"captureSoundSettings":	{
+		"fileName":	".\\capture\\sound.wav",
+		"durationInSeconds":	166
+	},
+	"imGuiStatus":	{
+		"displayCurrentStatus":	true,
+		"displayCameraSettings":	true
+	},
+	"userTextures":	[{
+			"fileName":	""
+		}, {
+			"fileName":	""
+		}, {
+			"fileName":	""
+		}, {
+			"fileName":	""
+		}]
+}
